@@ -2,6 +2,7 @@
   "name": "react-native-peeps",
   "version": "0.0.1",
   "private": true,
+  "main": "./src/index.js",
   "scripts": {
     "list-avd": "sh .\\emulate.sh list",
     "emulate": "sh .\\emulate.sh start",
@@ -17,6 +18,12 @@
     "react-native": "0.61.5",
     "react-native-svg": "^11.0.1"
   },
+  "keywords": [
+    "illustration",
+    "open peeps",
+    "react-native",
+    "sketch"
+  ],
   "devDependencies": {
     "@babel/core": "^7.8.6",
     "@babel/runtime": "^7.8.4",
