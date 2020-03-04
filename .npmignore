@@ -17,4 +17,4 @@ example.png
 index.js
 metro.config.js
 package-lock.json
-yarn-lock.json
+yarn.lock
