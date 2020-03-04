@@ -3,7 +3,7 @@
 
 React-native implementation of the hand drawn illustration library called [Open Peeps]([https://www.openpeeps.com/](https://www.openpeeps.com/))
 
-<p align="center"><img src='example.png?raw=true' style='width: 150px; height: 150px;' /></p>
+<p align="center"><img src="example.png" alt="peeps example" width="140"/></p>
 
 ## Installation
 
