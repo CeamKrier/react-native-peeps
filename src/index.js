@@ -1,10 +1,15 @@
 import React from 'react'
-import {Dimensions} from 'react-native'
+import { Dimensions } from 'react-native'
 import Svg from 'react-native-svg'
-import Head from './head'
-import { Turtleneck } from './body/Turtleneck'
 
-const Peep = () => {
+import Head from './head'
+export { Body } from './body/z_options'
+export { Hair } from './hair/z_options'
+export { Face } from './face/z_options'
+export { FacialHair } from './facialHair/z_options'
+export { Accessories } from './accessories/z_options'
+
+const Peep = ({ style, accessory, body, face, facialHair, hair }) => {
   return (
     <Svg
       style={{
@@ -13,9 +18,12 @@ const Peep = () => {
         justifyContent: 'center',
         alignSelf: 'center'
       }}
-      viewBox='0 0 820 1192'>
-      <Turtleneck />
-      <Head />
+      viewBox='0 0 1020 1192'
+    >
+      {// Body
+      React.createElement(body)}
+      {// Head
+      React.createElement(Head, { hair, face, facialHair, accessory })}
     </Svg>
   )
 }
