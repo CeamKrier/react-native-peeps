@@ -1,7 +1,6 @@
 {
   "name": "react-native-peeps",
   "version": "0.0.1",
-  "private": true,
   "main": "./src/index.js",
   "scripts": {
     "list-avd": "sh .\\emulate.sh list",
@@ -17,6 +16,10 @@
     "react": "16.9.0",
     "react-native": "0.61.5",
     "react-native-svg": "^11.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CeamKrier/react-native-peeps.git"
   },
   "keywords": [
     "illustration",
@@ -37,5 +40,12 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "author": "Emre Çakır",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CeamKrier/react-native-peeps/issues"
+  },
+  "homepage": "https://github.com/CeamKrier/react-native-peeps#readme"
+
 }
