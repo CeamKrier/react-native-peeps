@@ -25,7 +25,7 @@ const Peep = ({style, accessory, body, face, facialHair, hair, viewBox}) => {
   if (body === Body.Geek) {
     width = 950;
   }
-  console.log(x, y, width, height);
+  
   return (
     <Svg style={style} viewBox={`${x} ${y} ${width} ${height}`}>
       {// Body
