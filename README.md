@@ -1,9 +1,9 @@
 
 # react-native-peeps
 
-React-native implementation of the hand drawn illustration library called [Open Peeps]([https://www.openpeeps.com/](https://www.openpeeps.com/))
+React-native implementation of the hand drawn illustration library called [Open Peeps](https://www.openpeeps.com/)
 
-<p align="center"><img src="example.png" alt="peeps example" width="140"/></p>
+<p align="center"><img src="example.png" alt="peeps example" width="200"/></p>
 
 ## Installation
 
@@ -29,18 +29,18 @@ import  Peep, { Accessories, Body, Face, FacialHair, Hair } from  './src'
 const App = () => {
 
   return (
-        <Peep
-          style={styles.peepStyle}
-          accessory={Accessories.SunglassWayfarer}
-          body={Body.Geek}
-          face={Face.Driven}
-          facialHair={FacialHair.FullMajestic}
-          hair={Hair.ShavedSides}
-      />
-    )
+    <Peep
+      style={styles.peepStyle}
+      accessory={Accessories.SunglassWayfarer}
+      body={Body.Geek}
+      face={Face.Driven}
+      facialHair={FacialHair.FullMajestic}
+      hair={Hair.ShavedSides}
+    />
+  )
 }
 
-const  styles = StyleSheet.create({
+const styles = StyleSheet.create({
   peepStyle: {
     width: 200,
     height: 200,
@@ -49,6 +49,42 @@ const  styles = StyleSheet.create({
   }
 })
 
+```
+To use circular version
+
+```javascript
+
+import { StyleSheet } from  'react-native'
+import { CirclePeep, Accessories, Body, Face, FacialHair, Hair, circleStyle } from  './src'
+
+const App = () => {
+
+  return (
+    <CirclePeep
+      style={styles.peepStyle}
+      accessory={Accessories.GlassRoundThick}
+      body={Body.Geek}
+      face={Face.Smile}
+      facialHair={FacialHair.Goatee}
+      hair={Hair.ShortVolumed}
+      circleStyle={styles.circleStyle}
+    />
+  )
+}
+
+const  styles = StyleSheet.create({
+  circleStyle: {
+    backgroundColor: '#F3D34A',
+    width: 180,
+    height: 180,
+    alignSelf: 'center',
+    borderRadius: 100,
+    overflow: 'hidden',
+    borderWidth: 3,
+    borderColor: 'black'
+  }
+})
+  
 ```
 
 ## Contributing
