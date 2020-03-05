@@ -17,14 +17,14 @@ Module depends on react-native-svg, so install it too.
 npm install react-native-svg
 ```
 
-If your React Native version is below 0.60 the auto-linking feature won't work. You need to follow the steps to complete your installation of the [react-native-svg](https://github.com/react-native-community/react-native-svg#manually)
+If your React Native version is below 0.60 the auto-linking feature won't work. You need to follow the steps to complete your installation of the [react-native-svg](https://github.com/react-native-community/react-native-svg#manually).
 Otherwise, running the npm install command will be sufficient.
 
 ## Usage
 
 ```javascript
 import { StyleSheet } from  'react-native'
-import  Peep, { Accessories, Body, Face, FacialHair, Hair } from  './src'
+import  Peep, { Accessories, Body, Face, FacialHair, Hair } from  'react-native-peeps'
 
 const App = () => {
 
@@ -55,7 +55,7 @@ To use circular version
 ```javascript
 
 import { StyleSheet } from  'react-native'
-import { CirclePeep, Accessories, Body, Face, FacialHair, Hair, circleStyle } from  './src'
+import { CirclePeep, Accessories, Body, Face, FacialHair, Hair } from  'react-native-peeps'
 
 const App = () => {
 
