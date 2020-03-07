@@ -20,72 +20,11 @@ npm install react-native-svg
 If your React Native version is below 0.60 the auto-linking feature won't work. You need to follow the steps to complete your installation of the [react-native-svg](https://github.com/react-native-community/react-native-svg#manually).
 Otherwise, running the `npm install react-native-svg` command will be sufficient.
 
+
 ## Usage
 
-```javascript
-import { StyleSheet } from  'react-native'
-import  Peep, { Accessories, Body, Face, FacialHair, Hair } from  'react-native-peeps'
-
-const App = () => {
-
-  return (
-    <Peep
-      style={styles.peepStyle}
-      accessory={Accessories.SunglassWayfarer}
-      body={Body.Geek}
-      face={Face.Driven}
-      facialHair={FacialHair.FullMajestic}
-      hair={Hair.ShavedSides}
-    />
-  )
-}
-
-const styles = StyleSheet.create({
-  peepStyle: {
-    width: 200,
-    height: 200,
-    justifyContent: 'center',
-    alignSelf: 'center'
-  }
-})
-
-```
-To use circular version
-
-```javascript
-
-import { StyleSheet } from  'react-native'
-import { CirclePeep, Accessories, Body, Face, FacialHair, Hair } from  'react-native-peeps'
-
-const App = () => {
-
-  return (
-    <CirclePeep
-      style={styles.peepStyle}
-      accessory={Accessories.GlassRoundThick}
-      body={Body.Geek}
-      face={Face.Smile}
-      facialHair={FacialHair.Goatee}
-      hair={Hair.ShortVolumed}
-      circleStyle={styles.circleStyle}
-    />
-  )
-}
-
-const  styles = StyleSheet.create({
-  circleStyle: {
-    backgroundColor: '#F3D34A',
-    width: 180,
-    height: 180,
-    alignSelf: 'center',
-    borderRadius: 100,
-    overflow: 'hidden',
-    borderWidth: 3,
-    borderColor: 'black'
-  }
-})
-  
-```
+<div data-snack-id="@ceamkrier/9ba06b" data-snack-platform="web" data-snack-preview="true" data-snack-theme="light" style="overflow:hidden;background:#fafafa;border:1px solid rgba(0,0,0,.08);border-radius:4px;height:505px;width:100%"></div>
+<script async src="https://snack.expo.io/embed.js"></script>
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
