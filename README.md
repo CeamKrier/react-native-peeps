@@ -18,7 +18,7 @@ npm install react-native-svg
 ```
 
 If your React Native version is below 0.60 the auto-linking feature won't work. You need to follow the steps to complete your installation of the [react-native-svg](https://github.com/react-native-community/react-native-svg#manually).
-Otherwise, running the npm install command will be sufficient.
+Otherwise, running the `npm install react-native-svg` command will be sufficient.
 
 ## Usage
 
