@@ -13,6 +13,8 @@ App.js
 app.json
 babel.config.js
 emulate.sh
+example.png
+expo-button.png
 index.js
 metro.config.js
 package-lock.json
