@@ -22,7 +22,7 @@ Otherwise, running the `npm install react-native-svg` command will be sufficient
 
 <p>
   <a href="https://snack.expo.io/@ceamkrier/9ba06b">
-    <img style="width: 170px;" src="expo-button.png" alt="React Native Peeps - Playground">
+    <img width="170" src="expo-button.png" alt="React Native Peeps - Playground">
   </a>
 </p>
 
