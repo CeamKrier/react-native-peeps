@@ -26,6 +26,9 @@ Otherwise, running the `npm install react-native-svg` command will be sufficient
   </a>
 </p>
 
+
+<a href="https://www.buymeacoffee.com/ceamkrier"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=ceamkrier&button_colour=f9d366&font_colour=000000&font_family=Comic&outline_colour=000000&coffee_colour=FFDD00"></a>
+
 ## Usage
 
 ```javascript
